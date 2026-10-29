@@ -1,0 +1,39 @@
+{
+  "name": "promptbuilder",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@google/genai": "^2.0.1",
+    "@leeoniya/ufuzzy": "^1.0.19",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-store": "^2.0.0",
+    "clsx": "^2.1.1",
+    "diff": "^9.0.0",
+    "exifr": "^7.1.3",
+    "lucide-react": "^0.462.0",
+    "openai": "^6.37.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.5.0",
+    "tesseract.js": "^7.0.0",
+    "uuid": "^11.0.3",
+    "xlsx": "^0.18.5",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@tauri-apps/cli": "^2.10.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.3"
+  }
+}

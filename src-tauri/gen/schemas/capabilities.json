@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Default capabilities for PromptBuilder","local":true,"windows":["main"],"permissions":["core:default","log:allow-log","shell:allow-open","store:allow-get","store:allow-set","store:allow-save","store:allow-load"]}}
